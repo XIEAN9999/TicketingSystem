@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/12/5 15:40:14。
+     1>项目“c:\Users\81005\documents\visual studio 2010\Projects\JniTest\JniTest\JniTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\JniTest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D JNITEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JniTest.cpp
+         JniTest.cpp
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\jnitest\jnitest.cpp(4): error C2653: “JniTest”: 不是类或命名空间名称
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\jnitest\jnitest.cpp(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\jnitest\jnitest.cpp(6): warning C4508: “JniTest”: 函数应返回一个值；假定“void”返回类型
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\jnitest\jnitest.cpp(9): error C2653: “JniTest”: 不是类或命名空间名称
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\jnitest\jnitest.cpp(9): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“c:\Users\81005\documents\visual studio 2010\Projects\JniTest\JniTest\JniTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.39
