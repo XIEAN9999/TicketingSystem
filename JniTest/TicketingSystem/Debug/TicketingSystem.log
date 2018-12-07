@@ -1,11 +1,17 @@
-﻿生成启动时间为 2018/12/6 17:26:26。
+﻿生成启动时间为 2018/12/7 12:08:00。
      1>项目“C:\Users\81005\Documents\Visual Studio 2010\Projects\JniTest\TicketingSystem\TicketingSystem.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug\TicketingSystem.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug\TicketingSystem.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TicketingSystem.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TicketingSystem.cpp
-         TicketingSystem.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TicketingSystem.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt load_data_from_file.cpp
+         load_data_from_file.cpp
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\ticketingsystem\load_data_from_file.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\ticketingsystem\load_data_from_file.cpp(37): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\81005\documents\visual studio 2010\projects\jnitest\ticketingsystem\load_data_from_file.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -29,4 +35,4 @@
 
 生成成功。
 
-已用时间 00:00:01.45
+已用时间 00:00:01.28

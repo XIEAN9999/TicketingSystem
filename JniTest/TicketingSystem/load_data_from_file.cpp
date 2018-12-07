@@ -6,17 +6,26 @@ STATUS load_data()
 {
 	FILE *fp;
 	STU stu;
+	printf("加载信息准备");
 	fp=fopen(_INFO_FILE_PATH_,"rb");
 	if(fp==NULL)
 	{
-		perror("文件打开失败");
+		printf("文件打开失败");
 	    return ERROR;
 	}
-	while(1==fread(&stu,sizeof(STU),1,fp))
+	while(1)
 	{
-		printf("读出信息：%d,%s,%s",stu.age,stu.name,stu.job);
+		
+		if(1==fread(&stu,sizeof(STU),1,fp))
+		{
+			printf("%d %s %s\n",stu.age,stu.name.c_str(),stu.job.c_str());
+		}
+		else
+		{
+			printf("结束");
+			break;
+		}
 	}
-	printf("以上为全部信息");
 	fclose(fp);
 	return SUCCESS;
 }
@@ -24,7 +33,6 @@ STATUS load_data()
 void wirte_info(const STU * stu,int len)
 {
 	FILE * fp;
-	printf("写入准备");
 	int i=0;
 	fp=fopen(_INFO_FILE_PATH_,"rb+");
 	if(!fp)
@@ -34,6 +42,7 @@ void wirte_info(const STU * stu,int len)
 	fseek(fp,0,SEEK_END);
 	while(i<len)
 	{
+		printf("写入%d\n",stu->age);
 		fwrite(stu+i,sizeof(STU),1,fp);
 	    i++;
 	}

@@ -6,16 +6,20 @@
 #include <stdlib.h>
 int _tmain(int argc, _TCHAR* argv[])
 {
-	/*STU * student=(STU *)malloc(sizeof(STU));
+	STU * student=new STU;
+	STU * sec=new STU;
 	if(student)
 	{
-		printf("·ÖÅä³É¹¦");
 		student->age=19;
-		student->name=";
-		student->job="engineer";
+		student->name="XIEAN";
+		student->job="ENGINEER";
+		sec->age=18;
+		sec->name="hh";
+		sec->job="ll";
 		wirte_info(student,1);
+		wirte_info(sec,1);
 	}
-	load_data();*/
+	load_data();
 	return 0;
 }
 
